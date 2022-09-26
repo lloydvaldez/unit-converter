@@ -1,0 +1,85 @@
+@import url('https://rsms.me/inter/inter.css');
+html { font-family: 'Inter', sans-serif; }
+@supports (font-variation-settings: normal) {
+  html { font-family: 'Inter var', sans-serif; }
+}
+
+body {
+    background: #000;
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.container {
+    margin: 100px auto;
+}
+
+.card-top {
+    align-content: center;
+    background: #6943FF;
+    display: flex;
+    flex-direction: column;
+    height: 285px;
+    justify-content: center;
+    margin: 0 auto;
+    position: relative;
+    width: 550px;
+    border-top-left-radius: 2em;
+    border-top-right-radius: 2em;
+}
+
+h1 {
+    color: #FFF;
+    font-size: 28px;
+    font-weight: bolder;
+    margin: 20px auto;
+}
+
+input {
+    background: #6943FF;
+    border: 1px solid #FFFFFF;
+    border-radius: 5px;
+    color: #FFF;
+    font-size: 58px;
+    height: 83px;
+    margin: 10px auto;
+    text-align: center;
+    width: 117px;
+}
+
+button {
+    border: none;
+    border-radius: 5px;
+    height: 42px;
+    margin: 20px auto;
+    width: 117px;
+}
+
+.card-bottom {
+    background: #1F2937;
+    display: flex;
+    flex-direction: column;
+    height: 444px;
+    margin: 0 auto;
+    padding-top: 20px;
+    width: 550px;
+}
+
+.unit-section {
+    align-items: center;
+    background: #273549;
+    border: none;
+    color: #FFF;
+    font-size: 14px;
+    height: 108.57px;
+    margin: 15px auto;
+    width: 500px;
+    border-radius: 2em;
+}
+
+h2 {
+    color: #CCC1FF;
+    font-size: 20px;
+}
