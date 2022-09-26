@@ -1,6 +1,10 @@
 # Unit Converter
 A unit conversion web app I did while taking Scrimba's JavaScript course. Metric/Imperial units convert length(meter/feet), volume(liters/gallons) and Mass (kilograms/pounds).
 
+Live: https://velvety-gecko-b3dfd3.netlify.app/
+
+Repo: https://github.com/tonytoocozy/unit-converter
+
 ## What I learned making this project
 - How to work with innerHtml in JS
 - Rounding decimals with toFixed
